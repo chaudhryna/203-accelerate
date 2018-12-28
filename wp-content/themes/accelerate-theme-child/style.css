@@ -116,3 +116,34 @@ div.case-study-images img {
 	width: 100%;
 	height: auto;
 }
+.social-media-navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+.menu-social-media-nav-container li {
+  display: inline;
+  padding: 10px;
+
+}
+i._mi.fa-linkedin {
+    height: 35px;
+    width: 35px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}
+i._mi.fa-facebook {
+    height: 35px;
+    width: 35px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}
+i._mi.fa-twitter {
+    height: 35px;
+    width: 35px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}

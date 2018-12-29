@@ -121,29 +121,24 @@ div.case-study-images img {
     margin: 0;
     padding: 0;
   }
-.menu-social-media-nav-container li {
-  display: inline;
-  padding: 10px;
+.social-media-menu li {
+  display: inline-block;
+  width: 40px;
+  margin: 0px 3px;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 0.6em;
+}
+.social-media-menu li a {
+  color: white;
+}
+.social-media-menu .menu-item i._mi {
+  margin-top: 0;
+}
+.menu-item i._mi {
+  font-size: 2.2em;
+}
 
-}
-i._mi.fa-linkedin {
-    height: 35px;
-    width: 35px;
-    background-color: black;
-    color: white;
-    border-radius: 50%;
-}
-i._mi.fa-facebook {
-    height: 35px;
-    width: 35px;
-    background-color: black;
-    color: white;
-    border-radius: 50%;
-}
-i._mi.fa-twitter {
-    height: 35px;
-    width: 35px;
-    background-color: black;
-    color: white;
-    border-radius: 50%;
-}
+

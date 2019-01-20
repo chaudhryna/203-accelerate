@@ -61,10 +61,14 @@ get_header(); ?>
 		  </div>
 		 </section>
 
-		 <?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
-				<div id="secondary" class="widget-area" role="complementary">
-				<?php dynamic_sidebar( 'sidebar-2' ); ?>
+		 <section class="recent-tweets">
+		 		<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+					<div id="secondary" class="widget-area" role="complementary">
+					<?php dynamic_sidebar( 'sidebar-2' ); ?>
+					<a href="http://twitter.com" class="follow-us-link">Follow Us ></a>
 				</div>
-			<?php endif; ?>
-			
+				<?php endif; ?>
+				
+			</section>
+
 <?php get_footer(); ?>

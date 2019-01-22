@@ -11,7 +11,7 @@ get_header(); ?>
 
 <div id="primary" class="content-area">
 
-  <img class="girl-image" src="wp-content/themes/accelerate-theme-child/img/girl.jpg" alt="embarrassed little girl">    
+  <img class="girl-image" src="<?php echo get_stylesheet_directory_uri(); ?>/img/girl.jpg"/>
 
 		<div id="content" class="site-content" role="main">
 

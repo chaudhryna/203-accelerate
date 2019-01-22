@@ -51,7 +51,8 @@
 
             </article>
 
- 			<?php endwhile; // end of the loop. ?>
+             <?php endwhile; // end of the loop. ?>
+             
  		</div><!-- .main-content -->
 
  	</div><!-- #primary -->

@@ -236,8 +236,11 @@ input.button {
   border-top: 1px solid #bfbfbf;
   padding-top: 2em;
   margin-bottom: 4em;
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
 }
-
-/*.the_champ_horizontal_counter li {
-  width: 100px !important;
-}*/
+.arrow {
+  margin-right: 20px;
+  color: #45ac9d;
+}

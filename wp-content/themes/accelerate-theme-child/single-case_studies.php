@@ -52,9 +52,12 @@
             </article>
 
              <?php endwhile; // end of the loop. ?>
-             
+            
  		</div><!-- .main-content -->
-
+         
  	</div><!-- #primary -->
-
+     
+     <div class="back-to-work">
+        <h4><a href=".."><span class="arrow">&#x2190</span> BACK TO WORK</h4></a>
+    </div>
  <?php get_footer(); ?>

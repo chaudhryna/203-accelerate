@@ -10,23 +10,26 @@ Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibi
 Text Domain:  accelerate-theme-child
 */
 .home-page {
-  background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover
-    rgba(0, 0, 0, 0);
+  background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
   height: auto;
   margin: 0 0 5em;
   padding: 8em 0;
   text-align: center;
   color: white;
 }
+
 #masthead {
   background: none repeat scroll 0 0 #45ac9d;
 }
+
 .button {
   background: none repeat scroll 0 0 #45ac9d;
 }
+
 .featured-work h3 {
   text-align: center;
 }
+
 .featured-work ul {
   list-style-type: none;
   margin: 0 2px;
@@ -35,9 +38,11 @@ Text Domain:  accelerate-theme-child
   display: flex;
   justify-content: space-around;
 }
+
 .featured-work li {
   float: left;
 }
+
 .featured-work li a {
   display: block;
   color: black;
@@ -45,39 +50,47 @@ Text Domain:  accelerate-theme-child
   padding: 14px 40px;
   text-decoration: none;
 }
+
 .blog-post {
   width: 50%;
   float: left;
   margin-bottom: 2em;
 }
+
 .blog-post h4 {
   font: 700 1em/1.75 "Montserrat", "Open Sans", Arial, sans-serif;
   color: #a6a6a6;
   text-transform: uppercase;
   margin: 2em 0 0.5em;
 }
+
 .blog-post h3 {
   font-size: 1.5em;
 }
+
 .read-more-link {
   font-family: "Montserrat";
   font-weight: 700;
   color: #45ac9d;
   text-transform: uppercase;
 }
+
 /* Case Studies */
 aside.case-study-sidebar {
   float: left;
   width: 300px;
 }
+
 div.case-study-images {
   float: left;
   width: 606px;
 }
+
 /* Case Study archives */
 .case-study-sidebar {
   margin-right: 40px;
 }
+
 .case-study-sidebar h2 {
   font-family: "Open Sans";
   font-weight: normal;
@@ -92,36 +105,43 @@ div.case-study-images {
   font-size: 0.8em;
   text-transform: capitalize;
 }
+
 .case-study-sidebar h6 {
   font-family: "Montserrat";
   font-weight: normal;
   margin-top: 5px;
   font-size: 0.7em;
 }
+
 .case-study-images {
   margin-top: 50px;
 }
+
 .view {
   font-family: "Montserrat";
   font-weight: 700;
   color: #45ac9d;
   text-transform: uppercase;
 }
+
 .visit {
   font-family: "Montserrat";
   font-weight: 500;
   color: #45ac9d;
   text-transform: uppercase;
 }
+
 div.case-study-images img {
   width: 100%;
   height: auto;
 }
+
 .social-media-navigation ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
+
 .social-media-menu li {
   display: inline-block;
   width: 40px;
@@ -132,36 +152,45 @@ div.case-study-images img {
   background: rgba(0, 0, 0, 0.8);
   font-size: 0.6em;
 }
+
 .social-media-menu li a {
   color: white;
 }
+
 .social-media-menu .menu-item i._mi {
   margin-top: 0;
 }
+
 .menu-item i._mi {
   font-size: 2.2em;
 }
+
 /* Contact Us form */
 .contact-content {
   margin-left: 300px;
   width: 650px;
 }
+
 .contact-content h2 {
   font-size: 24px;
 }
+
 #nf-field-1-container {
   display: inline-block;
   width: 46%;
   margin-right: 30px;
 }
+
 #nf-field-2-container {
   display: inline-block;
   width: 46%;
 }
+
 #nf-field-4 {
   background-color: #45ac9d;
   float: right;
 }
+
 /* About Page */
 .about-content p {
   color: #fff;
@@ -171,75 +200,91 @@ div.case-study-images img {
   padding: 0 200px;
   margin: 0 0 3em;
 }
+
 .intro {
   text-align: center;
 }
+
 .service1,
 .service2,
 .service3,
 .service4 {
   margin-top: 100px;
 }
+
 .service1 img {
   float: left;
   margin-right: 100px;
 }
+
 .service2 img {
   float: right;
   margin-left: 100px;
 }
+
 .service3 img {
   float: left;
   margin-right: 100px;
 }
+
 .service4 img {
   float: right;
   margin-left: 100px;
 }
+
 .teaser {
   border-top: 1px solid #bfbfbf;
-  padding-top: 2em;
-  margin-bottom: 4em;
+  padding-top: .5em;
+  margin-bottom: .5em;
   text-align: center;
 }
+
 .teaser h3 {
   display: inline-block;
   margin-right: 30px;
 }
+
 .girl-image {
   float: left;
 }
+
 .error-msg h1 {
   font-family: "Londrina Solid", "Montserrat", "Open Sans", Arial, sans-serif;
 }
+
 #secondary {
   width: 45%;
   float: right;
   margin-bottom: 2em;
 }
+
 .tweets h4 {
   font: 700 1em/1.75 "Montserrat", "Open Sans", Arial, sans-serif;
   color: #a6a6a6;
   text-transform: uppercase;
   margin: 2em 0 0.5em;
 }
+
 .follow-us-link {
   font-family: "Montserrat";
   font-weight: 700;
   color: #45ac9d;
   text-transform: uppercase;
 }
+
 input.button {
   background: none repeat scroll 0 0 #45ac9d;
 }
+
 .back-to-work {
   border-top: 1px solid #bfbfbf;
-  padding-top: 2em;
-  margin-bottom: 4em;
+  padding-top: 0.5em;
+  margin-bottom: 0.5em;
   width: 90%;
   max-width: 960px;
   margin: 0 auto;
 }
+
 .arrow {
   margin-right: 20px;
   color: #45ac9d;

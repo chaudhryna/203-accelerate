@@ -9,8 +9,8 @@
 
 get_header(); ?>
 
-	<div id="primary" class="site-content contact-content">
-		<div class="content" role="main">
+	<div id="primary" class="site-content">
+		<div class="main-content contact-content" role="main">
 			<?php while ( have_posts() ) : the_post(); ?>
                 <h2><?php the_title(); ?></h2>
 				<?php the_content(); ?>

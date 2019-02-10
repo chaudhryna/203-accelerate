@@ -167,8 +167,8 @@ div.case-study-images img {
 
 /* Contact Us form */
 .contact-content {
-  margin-left: 300px;
   width: 650px;
+  margin: 0 auto;
 }
 
 .contact-content h2 {
